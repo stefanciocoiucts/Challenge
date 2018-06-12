@@ -17,6 +17,6 @@
       <Entry x:Name="genreText" Text="Enter the genre"/>
       <Label Text="Track Length"/>
       <Entry x:Name="tracklengthText" Text="Enter the track length"/>
-      <Button x:Name="translateButon" Text="Translate"/>
+      <Button x:Name="AddButton" Text="Add to Database" Clicked="OnPopup"/>
     </StackLayout>
 </ContentPage>

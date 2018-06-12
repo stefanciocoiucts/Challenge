@@ -9,6 +9,9 @@ namespace Challenge
         {
             InitializeComponent();
         }
-
+        void OnPopup(object sender, EventArgs e)
+        {
+            DisplayAlert("Alert", "Added!", "OK");
+        }
     }
 }
