@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                   x:Class="Challenge.MainPage">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS" Value="20, 40, 20, 20" />
+            <On Platform="Android, WinPhone, Windows" Value="20" />
+        </OnPlatform>
+    </ContentPage.Padding>
+    <StackLayout>
+      <Label Text="Artist:" />
+      <Entry x:Name="artistText" Text="Enter the artist" />
+      <Label Text="Track Name:"/>
+      <Entry x:Name="trackText" Text="Enter the track name"/>
+      <Label Text="Genre:"/>
+      <Entry x:Name="genreText" Text="Enter the genre"/>
+      <Label Text="Track Length"/>
+      <Entry x:Name="tracklengthText" Text="Enter the track length"/>
+      <Button x:Name="translateButon" Text="Translate"/>
+    </StackLayout>
+</ContentPage>
