@@ -1,5 +1,9 @@
 ﻿using System;
 using Xamarin.Forms;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Challenge
 {
@@ -9,10 +13,10 @@ namespace Challenge
         {
             InitializeComponent();
         }
-        public void OnPopup(object sender, EventArgs e)
+        async void AddSongPage(object sender, EventArgs e)
         {
-            AddButton.Text = "Added";
+            await Navigation.PushAsync(new AddSong());
         }
-
     }
+
 }

@@ -9,14 +9,7 @@
         </OnPlatform>
     </ContentPage.Padding>
     <StackLayout>
-      <Label Text="Artist:" />
-      <Entry x:Name="artistText" Text="Enter the artist" />
-      <Label Text="Track Name:"/>
-      <Entry x:Name="trackText" Text="Enter the track name"/>
-      <Label Text="Genre:"/>
-      <Entry x:Name="genreText" Text="Enter the genre"/>
-      <Label Text="Track Length"/>
-      <Entry x:Name="tracklengthText" Text="Enter the track length"/>
-      <Button x:Name="AddButton" Text="Add to Database" Clicked="OnPopup"/>
+      <Label Text="WELCOME TO THE MAIN PAGE!" />
+      <Button x:Name="Add a Song" Text="Add to Database" Clicked="AddSongPage"/>
     </StackLayout>
 </ContentPage>
