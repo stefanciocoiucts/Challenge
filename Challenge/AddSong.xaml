@@ -10,13 +10,13 @@
     </ContentPage.Padding>
     <StackLayout>
       <Label Text="Artist:" />
-      <Entry x:Name="artistText" Text="Enter the artist" />
+      <Entry x:Name="artistText" Placeholder="Enter the artist" />
       <Label Text="Track Name:"/>
-      <Entry x:Name="trackText" Text="Enter the track name"/>
+      <Entry x:Name="trackText" Placeholder="Enter the track name"/>
       <Label Text="Genre:"/>
-      <Entry x:Name="genreText" Text="Enter the genre"/>
+      <Entry x:Name="genreText" Placeholder="Enter the genre"/>
       <Label Text="Track Length"/>
-      <Entry x:Name="tracklengthText" Text="Enter the track length"/>
+      <Entry x:Name="tracklengthText" Placeholder="Enter the track length"/>
       <Button x:Name="AddButton" Text="Add to Database" Clicked="OnPopup"/>
     </StackLayout>
 </ContentPage>

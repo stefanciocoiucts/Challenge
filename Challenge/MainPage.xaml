@@ -10,6 +10,6 @@
     </ContentPage.Padding>
     <StackLayout>
       <Label Text="WELCOME TO THE MAIN PAGE!" />
-      <Button x:Name="Add a Song" Text="Add to Database" Clicked="AddSongPage"/>
+      <Button x:Name="AddaSong" Text="Go to Database" Clicked="AddSongPage"/>
     </StackLayout>
 </ContentPage>
